@@ -23,3 +23,12 @@
 
 - deletar todos os pods:
     kubectl delete pods --all
+
+- consultar dados de nodes pods:
+    kubectl get nodes -o wide
+
+- consultar configurações de um configmap:
+    kubectl get configmap
+
+- descrever configurações de um configmap:
+    kubectl describe configmap <nome-do-configmap> *sem o .yaml
